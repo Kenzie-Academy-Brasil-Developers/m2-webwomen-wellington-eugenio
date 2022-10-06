@@ -1,0 +1,29 @@
+.img-redi{
+    width: 100%;
+    height: 100vh;
+}
+main{
+    background-color: var(--color-brand-1);
+}
+.logo-red{
+    position: absolute;
+    top: 2%;
+    left: 5%;
+}
+.button-red{
+    width: 15rem;
+    height: 3rem;
+    border: 0.250rem solid var(--color-brand-1);
+    border-radius: var(--radius-default);
+    position: absolute;
+    top: 48%;
+    left: 42%;
+    background-color: var(--color-brand-2);
+}
+
+.button-red>a{
+    color: var(--color-grey-6);
+    text-decoration: none;
+    font-size: var(--text-1);
+    font-weight: 600;
+}

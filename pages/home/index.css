@@ -1,1 +1,119 @@
-/* Desenvolva sua estilização aqui... */
+.background{
+    width: 100rem;
+    height: 49.625rem;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    top: 0;
+    z-index: -1;
+    
+}
+.logo{
+    width: 16rem;
+}
+.reader{
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 9rem;
+    margin-bottom: 7rem;
+}
+
+.master{
+    background-color: var(--color-grey-4);
+}
+
+.vacancy{
+    padding-top: 3rem;
+    position: relative;
+}
+
+.vagancy-rooler{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    gap: 4rem;
+}
+
+.aply-container{
+    width: 31.438rem;
+    min-height: 10rem;
+    max-height: 10rem;
+    background-color: var(--color-grey-6);
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    top: 3rem;
+}
+.aply-container .title-4{
+    margin-bottom: 2rem;
+    padding-left: 2rem;
+}
+.aply-container .text-2{
+    
+    padding-left: 2rem;
+}
+.aply-container ul{
+    width: 31.438rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-aply{
+    width: 31.438rem;
+    height: 10rem;
+    background-color: var(--color-grey-6);
+    border-bottom: 1px solid var(--color-grey-4);
+    padding: 1.75rem 2rem 1.75rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.aply-reader{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.aply-foot{
+    display: flex;
+    gap:2rem;
+}
+
+.vacancy-list{
+    width: 51.125rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.card-job{
+    width: 100%;
+    height: 19.188rem;
+    background-color: var(--color-grey-6);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1.75rem;
+}
+
+.job-loc{
+    display: flex;
+    gap: 2rem;
+}
+
+.job-buttons{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.job-type{
+    background-color: var(--color-grey-3);
+    border: 0.40rem solid var(--color-grey-3);
+    border-radius: var(--radius-default);
+}
+
