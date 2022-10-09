@@ -117,3 +117,6 @@
     border-radius: var(--radius-default);
 }
 
+.ocult{
+    display: none;
+}

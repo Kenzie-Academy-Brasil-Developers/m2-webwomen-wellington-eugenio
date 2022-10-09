@@ -1,0 +1,37 @@
+@media(max-width: 700px){
+    .container{
+        width: 650px;
+    }
+    .vagancy-rooler{
+        margin-top: 2rem;
+        display: flex;
+       flex-direction: column;
+        justify-content: space-between;
+        gap: 4rem;
+    }
+    .job-buttons{
+        display: flex;
+        flex-direction: column;
+    }
+
+    
+}
+
+@media(max-width: 420px){
+    .container{
+        width:390px;
+    }
+    .vagancy-rooler{
+        margin-top: 2rem;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        gap: 4rem;
+    }
+    .job-buttons{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+}

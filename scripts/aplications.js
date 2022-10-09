@@ -21,3 +21,14 @@ function addOrRemove(job, button){
 
     localStorage.setItem("@webwomen:aplications", JSON.stringify(jobsAply))
 }
+
+function showAlert(){
+    const alertjob = document.getElementById('alert')
+    const alertview = getAplyStorage()
+
+    if(alertview.length >0){
+        alertjob.classList.add('ocult')
+    }else{
+        alertjob.classList.remove('ocult')
+    }
+}

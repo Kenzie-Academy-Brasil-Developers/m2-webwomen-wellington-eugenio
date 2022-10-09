@@ -61,6 +61,7 @@ function criarJobCard(objeto){
     aplyOrRem.addEventListener('click',()=>{
         addOrRemove(objeto, aplyOrRem)
         renderAplycation(getAplyStorage())
+        showAlert()
     })
 
     locJob.append(enterprise, city);
@@ -101,10 +102,11 @@ function renderAplycation(arr){
 
 function removeFronAply(id, jobs=getAplyStorage()){
     const findAplycation = jobs.findIndex((objeto)=>objeto.id===id)
-
+    const buttonjob = document.getElementById(`ap-${id}`)
     const newAplication = [...jobs]
 
     newAplication.splice(findAplycation, 1)
+    buttonjob.innerText = "Candidatar"
 
     localStorage.setItem("@webwomen:aplications", JSON.stringify(newAplication))
 
