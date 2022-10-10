@@ -88,7 +88,7 @@ function renderAplycation(arr){
             `<li class="card-aply" id="vg-${objeto.id}">
                 <div class="aply-reader" >
                     <p class="title-5b">${objeto.title}</p>
-                    <button class="remove-aply" onclick={removeFronAply(${objeto.id})} id="${objeto.id}"><i class="fa-solid fa-trash-can"></i></button>
+                    <button class="remove-aply" onclick={removeFronAply(${objeto.id})} onclick={showAlert()} id="${objeto.id}"><i class="fa-solid fa-trash-can"></i></button>
                 </div>
                 <div class="aply-foot">
                     <p class="text-3">${objeto.enterprise}</p>
